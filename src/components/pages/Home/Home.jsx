@@ -1,15 +1,12 @@
+import Alltask from "../RightSide/Alltask/AllTask";
+import RightSide from "../RightSide/RightSide";
+import Sidebar from "./Sidebar/Sidebar";
 
-
-
-import Sidebar from "../Sidebar/Sidebar";
 const Home = () => {
   return (
-   <div>
-      
-      <Sidebar></Sidebar>
-         
-
-   </div>
+    <div className="md:flex ">
+     
+    </div>
   );
 };
 

@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Register = () => {
+const Important = () => {
     return (
         <div>
-            
+            <h2>Important</h2>
             
         </div>
     );
 };
 
-export default Register;
+export default Important;

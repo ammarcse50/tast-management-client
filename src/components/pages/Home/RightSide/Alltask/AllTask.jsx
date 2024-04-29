@@ -21,14 +21,14 @@ const AllTask = () => {
 
 }
   return (
-    <div>
+    <div className="p-5">
       <h2>All Task</h2>
       <progress
         className="progress progress-secondary w-56"
         value={calculateProgress}
         max="100"
       ></progress>
-      <div className="grid md:grid-cols-3 gap-5 p-6 space-x-3">
+      <div className="grid md:grid-cols-3   gap-5 ">
         {" "}
         {task.map((data) => (
           <TaskCard
