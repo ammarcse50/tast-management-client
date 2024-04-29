@@ -15,7 +15,7 @@ const TaskCard = ({ data, task, setTask }) => {
   };
 
   return (
-    <div className="card w-96 bg-neutral text-neutral-content">
+    <div className="card lg:w-96 px-6   bg-neutral text-neutral-content">
       <div className="card-body items-center text-center">
         <h2 className="card-title">{data.title}</h2>
         <p>{data.description}</p>

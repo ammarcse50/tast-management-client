@@ -5,6 +5,8 @@ import "boxicons";
 const Sidebar = () => {
   return (
     <div className="p-10  min-h-screen">
+     
+
       <div className="avatar  flex justify-center">
         <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
           <img src={img} alt="" />
@@ -15,7 +17,7 @@ const Sidebar = () => {
         <h2>Ammar uddin</h2>
       </div>
 
-      <div className="font-bold mx-7 text-4xl mt-12 ">
+      <div className="font-bold ml-12 md:ml-0 text-4xl mt-12 ">
       <Link to="/alltask" > <button
        
           className="hover:bg-[#1fc23a] hover:rounded-lg p-3 hover:text-white text-2xl flex items-center justify-center"
@@ -38,7 +40,9 @@ const Sidebar = () => {
         </button></Link>
         
       </div>
-    </div>
+      </div>
+     
+
   );
 };
 

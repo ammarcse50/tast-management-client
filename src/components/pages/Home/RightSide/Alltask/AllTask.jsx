@@ -28,7 +28,7 @@ const AllTask = () => {
         value={calculateProgress}
         max="100"
       ></progress>
-      <div className="grid md:grid-cols-3   gap-5 ">
+      <div className="grid lg:grid-cols-3 md:w-1/2 lg:w-full  gap-5 ">
         {" "}
         {task.map((data) => (
           <TaskCard
